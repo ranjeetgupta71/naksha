@@ -20,6 +20,8 @@
 }
 
 .handle-border-grid{
+  display: flex;
+  flex-direction: column;
   border:none;
   border-width:0;
   margin:10px;
@@ -31,4 +33,31 @@
 
 .third-row-title{
   white-space:nowrap;
+}
+.wrap-text{
+  max-width:85%;
+}
+
+.footer{
+  background-color: white;
+}
+
+.more-info{
+  margin-bottom: 10px;
+}
+
+.handle-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.handle-second-row-last-element{
+  margin-left: 10px;
+}
+.handle-last-element{
+  margin-top: 30px; 
+  margin-left: 10px;
+}
+.card-title{
+  color:pink
 }
