@@ -1,0 +1,34 @@
+.d-flex{
+  white-space:nowrap;
+}
+.navbar{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact{
+  text-align: right;
+  margin-right: 6px;
+}
+.slide{
+  width:100%;
+}
+
+.second-row,.show-in-row,.third-row-title{
+  display: flex;
+  flex-direction: row;
+}
+
+.handle-border-grid{
+  border:none;
+  border-width:0;
+  margin:10px;
+}
+
+.card{
+  border:none !important;
+}
+
+.third-row-title{
+  white-space:nowrap;
+}
