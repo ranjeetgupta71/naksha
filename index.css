@@ -1,85 +1,92 @@
-.d-flex{
-  white-space:nowrap;
+* {
+  box-sizing: border-box;
 }
-.navbar{
+
+.d-flex {
+  white-space: nowrap;
+}
+.navbar {
   display: flex;
   flex-direction: column;
 }
 
-.contact{
+.contact {
   text-align: right;
   margin-right: 6px;
 }
-.slide{
-  width:100%;
+.slide {
+  width: 100%;
   height: 50%;
 }
 
-.second-row,.show-in-row,.third-row-title{
+.second-row,
+.show-in-row,
+.third-row-title {
   display: flex;
   flex-direction: row;
 }
 
-.handle-border-grid{
+.handle-border-grid {
   display: flex;
   flex-direction: column;
-  border:none;
-  border-width:0;
-  margin:10px;
+  border: none;
+  border-width: 0;
+  margin: 10px;
 }
 
-.card{
-  border:none !important;
+.card {
+  border: none !important;
 }
 
-.third-row-title{
-  white-space:nowrap;
+.third-row-title {
+  white-space: nowrap;
 }
-.wrap-text{
-  max-width:85%;
+.wrap-text {
+  max-width: 85%;
 }
 
-.footer{
+.footer {
   background-color: white;
 }
 
-.more-info{
+.more-info {
   margin-bottom: 10px;
 }
 
-.handle-column{
+.handle-column {
   display: flex;
   flex-direction: column;
 }
 
-.handle-second-row-last-element{
+.handle-second-row-last-element {
   margin-left: 10px;
 }
-.handle-last-element{
-  margin-top: 30px; 
+.handle-last-element {
+  margin-top: 30px;
   margin-left: 10px;
 }
-.card-title{
-  color:#f29dbe
+.card-title {
+  color: #f29dbe;
 }
-.book-appointment-text{
-  color:black;
+.book-appointment-text {
+  color: black;
   text-decoration: none;
 }
-.book-appointment{
-  margin-top:30px;
-}
-
-.image-margin{
+.book-appointment {
+  border-radius: 10px !important;
   margin-top: 30px;
 }
-.third-row-font{
+
+.image-margin {
+  margin-top: 30px;
+}
+.third-row-font {
   font-size: 41px;
 }
-.green-color{
-  color:green !important;
+.green-color {
+  color: green !important;
 }
 
-.button-color{
+.button-color {
   background-color: #a4c43f !important;
 }
