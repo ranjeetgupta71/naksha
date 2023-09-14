@@ -99,5 +99,17 @@
   .copyright-style {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
+}
+
+@media only screen and (min-width: 700px) {
+  .copyright-break-style {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.font-style {
+  font-weight: 700;
 }
