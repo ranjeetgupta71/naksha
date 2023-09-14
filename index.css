@@ -90,3 +90,14 @@
 .button-color {
   background-color: #a4c43f !important;
 }
+
+.header-style {
+  margin-right: 25px !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .copyright-style {
+    display: flex;
+    flex-direction: column;
+  }
+}
