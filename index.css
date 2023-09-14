@@ -12,6 +12,7 @@
 }
 .slide{
   width:100%;
+  height: 50%;
 }
 
 .second-row,.show-in-row,.third-row-title{
@@ -59,7 +60,7 @@
   margin-left: 10px;
 }
 .card-title{
-  color:pink
+  color:#f29dbe
 }
 .book-appointment-text{
   color:black;
@@ -80,5 +81,5 @@
 }
 
 .button-color{
-  background-color: greenyellow !important;
+  background-color: #a4c43f !important;
 }

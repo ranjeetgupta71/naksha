@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet"  href="./bootstrap-5.0.2-dist/css/bootstrap.css"/>
+    <link rel="stylesheet"  href="./bootstrap-5.0.2-dist/css/bootstrap.css">
   </head>
   <body>
     <!-- Header/Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <img  src="./Assets/Logo.png"></img>
+        <img alt="Image" src="./Assets/Logo.png">
         <div >
-          <div class="contact">
+          <div class="contact" style="color: gray;">
             <div > Contact us: +91 98614 32654</div>
           </div>
           <div class="d-flex collapse " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active green-color" aria-current="page" href="#">Home</a>
+                <a class="nav-link active green-color" aria-current="page" href="./">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About us</a>
@@ -38,13 +38,13 @@
         </div>
       </div>
     </nav>
-    <div>
-      <img class="slide" src="./Assets/Slide.png"></img>
-    </div>
+    <section>
+      <img alt="Image" class="slide" src="./Assets/Slide.png">
+    </section>
 
     <!-- Content -->
-    <div  class="second-row container-fluid">
-      <div class="handle-border-grid col-sm-4">
+    <div  class="container second-row ">
+      <section class="handle-border-grid col-sm-4">
         <h2 class="card-title">Welcome</h2>
         <div class="card">
           <img class="card-img-top" src="./Assets/Image_1.png" alt="Card image cap">
@@ -53,8 +53,8 @@
             <a href="#" class="btn button-color">Read Me</a>
           </div>
         </div>
-      </div>
-      <div class="handle-border-grid col-sm-4">
+      </section>
+      <section class="handle-border-grid col-sm-4">
         <h2 class="card-title">Services</h2>
         <div class="card">
           <h6 >Mocha Manicure & Pedicure</h6>
@@ -67,19 +67,19 @@
             <a href="#" class="btn button-color">Read Me</a>
           </div>
         </div>
-      </div>
-      <div class="handle-border-grid col-sm-full">
+      </section>
+      <section class="handle-border-grid col-sm-full">
         <h2 class="card-title">Latest News</h2>
         <div class="card">
           <div class="show-in-row">
-            <img src="./Assets/Image_3.png">
+            <img alt="Image" src="./Assets/Image_3.png">
             <div class="handle-column handle-second-row-last-element">
               <h6>20.09.2016</h6>
               <p>offerings also help you to rejuvenate your mind, body, and spirit.</p>
             </div>
           </div>
           <div class="show-in-row">
-            <img class="image-margin" src="./Assets/Image_4.png">
+            <img alt="Image" class="image-margin" src="./Assets/Image_4.png">
             <div class="handle-last-element">
               <h6>20.09.2016</h6>
               <p> As a complement to our services and treatments. our fitness and wellness offerings also help you.</p>
@@ -89,37 +89,35 @@
             <a href="#" class="btn button-color">Read Me</a>
           </div>
         </div>
-      </div>
+      </section>
     </div>
 
-    <div>
-      <div class="third-row-title">
-        <h2 class="col-sm-9 third-row-font" >Seasonal & Classic Day Packages</h2>
-        <h2 class="col-sm-3 third-row-font" >Testimonials</h2>
-      </div>
-    </div>
-    <div class="third-row ">
-      <div class="second-row">
-        <div class="handle-border-grid col-sm-4">
-          <div class="card">
-            <img src="./Assets/Image_2.png">
+    <div class="container">
+      <div style="display: flex; flex-direction: row;">
+        <section class="col-sm-8">
+          <h2>Seasonal & Classic Day Packages</h2>
+          <div >
+              <div class="card" style="display: flex;flex-direction: row;">
+                <img alt="Image" class="col-sm-6" src="./Assets/Image_2.png">
+                <p class="col-sm-full" style="margin-left:30px;">
+                  Our skin changes with the season. Take time to refresh and renew with our seasonal day packages 
+                  at The Spa At The Hotel Hershey. Enjoy all three of our special pumpkin-themed treatments all 
+                  rolled up into one package! Our popular package is back by popular
+                  demand this winter! I Live for Mondays features a variety of our favorite spa treatments
+                  all rolled into onelemed treatments all rolled up into one package! Our popular package is back
+                   by popular demand this winter! I Live for Mondays features a variety of our favorite spa treatment.
+                </p>
+              </div>
           </div>
-        </div>
-        <div class="handle-border-grid col-sm-4">
-          <div class="card">
-            <p>
-              Our skin changes with the season. Take time to refresh and renew with our seasonal day packages 
-              at The Spa At The Hotel Hershey. Enjoy all three of our special pumpkin-themed treatments all 
-              rolled up into one package! Our popular package is back by popular
-              demand this winter! I Live for Mondays features a variety of our favorite spa treatments
-              all rolled into onelemed treatments all rolled up into one package! Our popular package is back by popular demand this winter! I Live for Mondays features a variety of our favorite spa treatment.
-            </p>
-          </div>
-        </div>
-        <div class="handle-border-grid col-sm-full">
+          
+        </section>
+        <section class="col-sm-full" style="margin-left: 30px;">
+          <h2 >Testimonials</h2>
           <div class="card">
             <h6> Rose Garden</h6>
-            <p>The collection of Rose Garden day packages at The Spa At The Hotel Hershey are inspired by Catherine Hershey's love for roses and incorporate the natural properties of rose oil to promote nourished, hydrated, and radiant skin.
+            <p>The collection of Rose Garden day packages at The Spa At The Hotel 
+              Hershey are inspired by Catherine Hershey's love for roses and incorporate 
+              the natural properties of rose oil to promote nourished, hydrated, and radiant skin.
             </p>
             <u class="more-info text-primary">more info</u> 
             
@@ -127,15 +125,15 @@
               <a class="book-appointment-text"  href="#">Book an Appointment</a>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </div>
     <hr>
     <!-- Footer -->
-    <nav class="footer navbar-expand-lg navbar-light bg-light">
+    <nav class="footer navbar-expand-lg navbar-light bg-light" >
       <div class="container-fluid">
         <div >
-          <div class="d-flex collapse " id="navbarSupportedContent">
+          <div class="d-flex collapse " id="navbarSupportedContent2" style="background-color: white;">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -155,13 +153,13 @@
             </ul>
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="d-flex nav-link" href="#">&copy; Copyright 2010 - 2016. Naksha. All rights reserved.</a>
+                <a class="d-flex nav-link" href="#" style="color:black">&copy; Copyright 2010 - 2016. Naksha. All rights reserved.</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </nav>
-    <script src="js/bootstrap.js/>
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>
